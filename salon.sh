@@ -2,7 +2,7 @@
 
 PSQL="psql -X --username=freecodecamp --dbname=salon --tuples-only -c"
 echo -e "\n~~~~~ Aphrodite Salon Spa ~~~~~\n"
-echo -e "Welcome to My Salon, how can I help you?\n"
+echo -e "Welcome to Aphrodite Salon Spa, how can I help you?\n"
 
 GET_SERVICES_ID() {
   if [[ $1 ]]
